@@ -1,7 +1,6 @@
-.App{
-  background-color: black;
-
-}
+/* ------------------------
+--------MAIN HEADER ----
+------------------------ */
 
 .App-header{
   height: 15vh;
@@ -28,7 +27,16 @@ a:Link{
   font-weight: 600;
 }
 
+/* -------------------------------
+------- PROJECTPAGE -----------
+------------------------------- */
 
+.landingImg{
+  width: 100vw;
+  height: 30vh;
+  background-image: url(./components/assets/StockNBull\ -\ Fortune\ teller.png);
+  
+}
 
 
 
