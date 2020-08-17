@@ -76,6 +76,10 @@ a:link:hover{
   width: 100vw;
   height: 50vh;
   display: grid;
+  grid-template-rows: 5vh 5vh 5vh;
+  grid-template-columns: 5vw 5vw 5vw;
+  grid-auto-rows: 5vh;
+  grid-auto-columns: 5vw;
 
 }
 
