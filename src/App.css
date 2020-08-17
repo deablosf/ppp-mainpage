@@ -6,14 +6,12 @@
   height: 15vh;
   width: 100vw;
 
-  background-color: blue;
+  background-color: rgb(36, 1, 37);
   display: flex;
-  margin-bottom: 10vh;
-  
 }
 
 .linkin{
-  color: black;
+  color: red;
   width: 50vw;
   height: 15vh;
   display: flex;
@@ -22,29 +20,81 @@
 }
 
 a:Link{
-  color: black;
+  color: rgb(192, 192, 192);
   text-decoration: none;
   font-weight: 600;
+}
+
+a:visited{
+  color: rgb(192,220,210);
+}
+
+a:link:hover{
+  background: linear-gradient(to right, purple, orange, rgb(156, 2, 2));
+  border-radius: 25px;
 }
 
 /* -------------------------------
 ------- PROJECTPAGE -----------
 ------------------------------- */
+.ProjMain{
+  background-color: rgb(26, 2, 32);
+}
 
-.landingImg{
-  width: 100vw;
-  height: 30vh;
-  background-image: url(./components/assets/StockNBull\ -\ Fortune\ teller.png);
-  
+.elePitch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
+.landingImg{
+  width: 100vw;
+  height: 60vh;
+  background-image: url(./components/assets/ATM.png);
+  background-position-x: 10%;
+  background-position-y: 30%;
+  background-size: 100%;
+  
+}
+
+.titles{
+  
+}
+
+.wordVomit{
+  width: 70vw;
+}
+
+.theCity{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map{
+  width: 100vw;
+  height: 50vh;
+  display: grid;
+
+}
+
+/* -----------------------------
+--------- ABOUT -------------
+----------------------------- */
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* -----------------------
 ------ Footer ---------
 ----------------------- */
 
 .footer{
+  background-color: black;
   width: 100vw;
   height: 20vh;
   display: flex;
